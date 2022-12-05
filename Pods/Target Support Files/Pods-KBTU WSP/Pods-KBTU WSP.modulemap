@@ -1,0 +1,6 @@
+framework module Pods_KBTU_WSP {
+  umbrella header "Pods-KBTU WSP-umbrella.h"
+
+  export *
+  module * { export * }
+}

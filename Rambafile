@@ -1,0 +1,23 @@
+### Headers settings
+company: TEAM WSP
+
+### Xcode project settings
+project_name: KBTU WSP
+xcodeproj_path: KBTU WSP.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: KBTU WSP
+
+# The file path for new modules
+project_file_path: KBTU WSP/Modules
+
+# The Xcode group path to new modules
+project_group_path: KBTU WSP/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swiftui_mvvm}

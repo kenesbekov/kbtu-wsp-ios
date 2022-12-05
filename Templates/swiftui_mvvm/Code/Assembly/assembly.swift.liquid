@@ -1,0 +1,27 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+// For module inputs and outputs
+typealias {{ module_info.name }}Configuration = ({{ module_info.name }}ModuleInput) -> (Void)
+
+final class {{ module_info.name }}ModuleAssembly {
+    /// Assembles Module components and returns a target controller
+    ///
+    /// - Parameter configuration: optional configuration closure called by module owner
+    /// - Returns: Assembled module's ViewController
+    func assemble(_ configuration: {{ module_info.name }}Configuration? = nil) -> UIViewController {
+        let viewModel = {{ module_info.name }}ViewModel()
+        let view = {{module_info.name}}View(viewModel: viewModel)
+        let hostingController = {{ module_info.name }}HostingController(rootView: view)
+        hostingController.viewModel = viewModel
+        configuration?(viewModel)
+        return hostingController
+    }
+}

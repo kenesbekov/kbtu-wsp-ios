@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EC917E069A0C8738B3DAFB /* NewsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99034ADB58DEA58831F19C /* NewsAssembly.swift */; };
+		412C908DF2668A24D47CD1EE /* NewsHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B003EE052170217602F01EB /* NewsHostingController.swift */; };
+		C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */; };
+		C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */; };
+		C2F008EC293DF9FD0009AF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008EB293DF9FD0009AF1D /* ViewController.swift */; };
+		C2F008EF293DF9FD0009AF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F008ED293DF9FD0009AF1D /* Main.storyboard */; };
+		C2F008F1293DFA000009AF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F008F0293DFA000009AF1D /* Assets.xcassets */; };
+		C2F008F4293DFA000009AF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */; };
+		CB5D61301E7B30B6E3881A60 /* Pods_KBTU_WSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519C3F7DEC341F43783AD8FE /* Pods_KBTU_WSP.framework */; };
+		F096E2612D9D4132512255D0 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AD3D4FFB8076F10030985 /* NewsViewModel.swift */; };
+		F4805F7DDD4CAE4035AF57E0 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */; };
+		F5DAC5B50ED77C901A646971 /* NewsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B003EE052170217602F01EB /* NewsHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsHostingController.swift; sourceTree = "<group>"; };
+		519C3F7DEC341F43783AD8FE /* Pods_KBTU_WSP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KBTU_WSP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		873AD3D4FFB8076F10030985 /* NewsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsModuleInput.swift; sourceTree = "<group>"; };
+		B2CA412AC221F364A3C2EB58 /* Pods-KBTU WSP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTU WSP.debug.xcconfig"; path = "Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F008E4293DF9FD0009AF1D /* KBTU WSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KBTU WSP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2F008EB293DF9FD0009AF1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F008EE293DF9FD0009AF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F008F0293DFA000009AF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F008F3293DFA000009AF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F008F5293DFA000009AF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D924D1490B2F9F36C26B5ED5 /* Pods-KBTU WSP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTU WSP.release.xcconfig"; path = "Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP.release.xcconfig"; sourceTree = "<group>"; };
+		EB99034ADB58DEA58831F19C /* NewsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsAssembly.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F008E1293DF9FD0009AF1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5D61301E7B30B6E3881A60 /* Pods_KBTU_WSP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152F937994DE0004CB227FFD /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A4B65B8F091437CDEDF2E5B2 /* View */,
+				4E2C7CBF13692427396DBC9F /* ViewModel */,
+				89E551831A88CC5A689D2402 /* Assembly */,
+			);
+			name = News;
+			path = News;
+			sourceTree = "<group>";
+		};
+		1881D676C14D08FD19016B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2CA412AC221F364A3C2EB58 /* Pods-KBTU WSP.debug.xcconfig */,
+				D924D1490B2F9F36C26B5ED5 /* Pods-KBTU WSP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		242B9EC511B8F3510ADB28BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519C3F7DEC341F43783AD8FE /* Pods_KBTU_WSP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E2C7CBF13692427396DBC9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */,
+				873AD3D4FFB8076F10030985 /* NewsViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89E551831A88CC5A689D2402 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EB99034ADB58DEA58831F19C /* NewsAssembly.swift */,
+			);
+			name = Assembly;
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A4B65B8F091437CDEDF2E5B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */,
+				2B003EE052170217602F01EB /* NewsHostingController.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2F008DB293DF9FC0009AF1D = {
+			isa = PBXGroup;
+			children = (
+				C2F008E6293DF9FD0009AF1D /* KBTU WSP */,
+				C2F008E5293DF9FD0009AF1D /* Products */,
+				1881D676C14D08FD19016B58 /* Pods */,
+				242B9EC511B8F3510ADB28BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F008E5293DF9FD0009AF1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008E4293DF9FD0009AF1D /* KBTU WSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F008E6293DF9FD0009AF1D /* KBTU WSP */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */,
+				C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */,
+				C2F008EB293DF9FD0009AF1D /* ViewController.swift */,
+				C2F008FB293DFC6A0009AF1D /* Modules */,
+				C2F008ED293DF9FD0009AF1D /* Main.storyboard */,
+				C2F008F0293DFA000009AF1D /* Assets.xcassets */,
+				C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */,
+				C2F008F5293DFA000009AF1D /* Info.plist */,
+			);
+			path = "KBTU WSP";
+			sourceTree = "<group>";
+		};
+		C2F008FB293DFC6A0009AF1D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				152F937994DE0004CB227FFD /* News */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F008E3293DF9FD0009AF1D /* KBTU WSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F008F8293DFA000009AF1D /* Build configuration list for PBXNativeTarget "KBTU WSP" */;
+			buildPhases = (
+				6EC9FD754E3103C6CAFE37B6 /* [CP] Check Pods Manifest.lock */,
+				C2F008E0293DF9FD0009AF1D /* Sources */,
+				C2F008E1293DF9FD0009AF1D /* Frameworks */,
+				C2F008E2293DF9FD0009AF1D /* Resources */,
+				3414549A97889495A9E95406 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KBTU WSP";
+			productName = "KBTU WSP";
+			productReference = C2F008E4293DF9FD0009AF1D /* KBTU WSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F008DC293DF9FC0009AF1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C2F008E3293DF9FD0009AF1D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C2F008DF293DF9FC0009AF1D /* Build configuration list for PBXProject "KBTU WSP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F008DB293DF9FC0009AF1D;
+			productRefGroup = C2F008E5293DF9FD0009AF1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F008E3293DF9FD0009AF1D /* KBTU WSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F008E2293DF9FD0009AF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008F4293DFA000009AF1D /* LaunchScreen.storyboard in Resources */,
+				C2F008F1293DFA000009AF1D /* Assets.xcassets in Resources */,
+				C2F008EF293DF9FD0009AF1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3414549A97889495A9E95406 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC9FD754E3103C6CAFE37B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KBTU WSP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F008E0293DF9FD0009AF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008EC293DF9FD0009AF1D /* ViewController.swift in Sources */,
+				C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */,
+				C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */,
+				F4805F7DDD4CAE4035AF57E0 /* NewsView.swift in Sources */,
+				412C908DF2668A24D47CD1EE /* NewsHostingController.swift in Sources */,
+				F5DAC5B50ED77C901A646971 /* NewsModuleInput.swift in Sources */,
+				F096E2612D9D4132512255D0 /* NewsViewModel.swift in Sources */,
+				20EC917E069A0C8738B3DAFB /* NewsAssembly.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2F008ED293DF9FD0009AF1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F008EE293DF9FD0009AF1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F008F3293DFA000009AF1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F008F6293DFA000009AF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F008F7293DFA000009AF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F008F9293DFA000009AF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CA412AC221F364A3C2EB58 /* Pods-KBTU WSP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC89CV545Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KBTU WSP/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.kbtu.KBTU-WSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F008FA293DFA000009AF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D924D1490B2F9F36C26B5ED5 /* Pods-KBTU WSP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC89CV545Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KBTU WSP/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.kbtu.KBTU-WSP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F008DF293DF9FC0009AF1D /* Build configuration list for PBXProject "KBTU WSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008F6293DFA000009AF1D /* Debug */,
+				C2F008F7293DFA000009AF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F008F8293DFA000009AF1D /* Build configuration list for PBXNativeTarget "KBTU WSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008F9293DFA000009AF1D /* Debug */,
+				C2F008FA293DFA000009AF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F008DC293DF9FC0009AF1D /* Project object */;
+}

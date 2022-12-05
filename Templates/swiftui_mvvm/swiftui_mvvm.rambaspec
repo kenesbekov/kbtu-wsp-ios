@@ -1,0 +1,24 @@
+# Template information section
+name: "strong_swift_mvvm"
+summary: "SwiftUI MVVM module template"
+author: "Arman Sarvardin"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/View.swift,  path: Code/View/view.swift.liquid}
+- {name: View/HostingController.swift, path: Code/View/hosting_controller.swift.liquid}
+
+# ViewModel layer
+- {name: ViewModel/ModuleInput.swift, path: Code/ViewModel/module_input.swift.liquid}
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/view_model.swift.liquid}
+
+# Assembly
+- {name: Assembly/Assembly.swift, path: Code/Assembly/assembly.swift.liquid}
+
+# The declarations for test files
+test_files:
+
+# Assembly tests
+- {name: Assembly/AssemblyTests.swift, path: Tests/Assembly/assembly_tests.swift.liquid}

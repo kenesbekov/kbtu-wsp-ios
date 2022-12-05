@@ -1,0 +1,24 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import SwiftUI
+
+struct {{ module_info.name }}View: View {
+    @ObservedObject var viewModel: {{ module_info.name }}ViewModel
+    var body: some View {
+        Text("Hello world!")
+    }
+}
+
+struct {{ module_info.name }}View_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            {{ module_info.name }}View(viewModel: {{ module_info.name }}ViewModel())
+        }
+    }
+}
