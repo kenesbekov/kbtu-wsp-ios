@@ -109,7 +109,6 @@
 				FCD494006FBD8B6156C9BB31 /* JournalModuleInput.swift */,
 				2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -137,7 +136,6 @@
 			children = (
 				2506E375DA7CFCEF898F6FE4 /* ScheduleAssembly.swift */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};
@@ -146,7 +144,6 @@
 			children = (
 				F7BCE30F182F296EB8BF3A48 /* JournalAssembly.swift */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};
@@ -181,7 +178,6 @@
 				BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */,
 				C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -200,7 +196,6 @@
 				BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */,
 				494BEA04A647C6F55B18AA6B /* ScheduleHostingController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -218,7 +213,6 @@
 				DD012FE22A295F1F0A54637C /* AttendanceView.swift */,
 				E4E1C325B7DD99EEAD622FF9 /* AttendanceHostingController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -229,7 +223,6 @@
 				F5C5EB64C7D70016714D21DB /* ViewModel */,
 				18CF73764F2178D29031B248 /* Assembly */,
 			);
-			name = Schedule;
 			path = Schedule;
 			sourceTree = "<group>";
 		};
@@ -240,7 +233,6 @@
 				55D7A6247A1ECCB687B397EC /* ViewModel */,
 				FF2ECFBA194C63B2DF92110E /* Assembly */,
 			);
-			name = Attendance;
 			path = Attendance;
 			sourceTree = "<group>";
 		};
@@ -260,7 +252,6 @@
 				0FBFF1E0327011BFDABC111F /* ViewModel */,
 				227EE7A829C5ACC40CB53BA0 /* Assembly */,
 			);
-			name = Journal;
 			path = Journal;
 			sourceTree = "<group>";
 		};
@@ -298,6 +289,13 @@
 			path = CoreDTOs;
 			sourceTree = "<group>";
 		};
+		C25E2C012946264E00EB46B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C2F008DB293DF9FC0009AF1D = {
 			isa = PBXGroup;
 			children = (
@@ -319,10 +317,11 @@
 		C2F008E6293DF9FD0009AF1D /* KBTU WSP */ = {
 			isa = PBXGroup;
 			children = (
-				C25E2BF829461C8400EB46B9 /* Extensions */,
 				C25E2BF729461BB500EB46B9 /* Application */,
 				C25E2BF629461BA800EB46B9 /* Core */,
+				C25E2C012946264E00EB46B9 /* Models */,
 				C2F008FB293DFC6A0009AF1D /* Modules */,
+				C25E2BF829461C8400EB46B9 /* Extensions */,
 				C2F008F0293DFA000009AF1D /* Assets.xcassets */,
 				C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */,
 				C2F008F5293DFA000009AF1D /* Info.plist */,
@@ -358,7 +357,6 @@
 				FC1A785E2E5FF12F0D941055 /* JournalView.swift */,
 				645FD24AF65744AFE3C0FF58 /* JournalHostingController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -368,7 +366,6 @@
 				8967556E321EC766E75F57B4 /* ScheduleModuleInput.swift */,
 				D0D317FB62D3B669BA36CB61 /* ScheduleViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -377,7 +374,6 @@
 			children = (
 				077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */,
 			);
-			name = Assembly;
 			path = Assembly;
 			sourceTree = "<group>";
 		};
