@@ -25,9 +25,12 @@
 		A8E6307E89D43B8FAC3B2EA2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CD15F118A73E5C684C60F /* ProfileView.swift */; };
 		AE981A226917BCB18977E7DA /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD012FE22A295F1F0A54637C /* AttendanceView.swift */; };
 		B294808B8769AA6C67E3F990 /* AttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */; };
+		C21FBC5429465C2D00663614 /* SettingsSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FBC5329465C2D00663614 /* SettingsSwitchRow.swift */; };
 		C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2BF929461C9C00EB46B9 /* NavigationView+Extension.swift */; };
 		C25E2BFC29461DEB00EB46B9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2BFB29461DEB00EB46B9 /* TabBarController.swift */; };
 		C25E2BFE29461F2100EB46B9 /* AppConfigurationInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2BFD29461F2100EB46B9 /* AppConfigurationInputModel.swift */; };
+		C25E2C0B294639CA00EB46B9 /* SettingsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2C0A294639CA00EB46B9 /* SettingsListRow.swift */; };
+		C2856B092946660F00B01EF7 /* UserDefaultNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2856B082946660F00B01EF7 /* UserDefaultNames.swift */; };
 		C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */; };
 		C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */; };
 		C2F008F1293DFA000009AF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F008F0293DFA000009AF1D /* Assets.xcassets */; };
@@ -62,9 +65,12 @@
 		B2CA412AC221F364A3C2EB58 /* Pods-KBTU WSP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTU WSP.debug.xcconfig"; path = "Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP.debug.xcconfig"; sourceTree = "<group>"; };
 		BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceModuleInput.swift; sourceTree = "<group>"; };
 		BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		C21FBC5329465C2D00663614 /* SettingsSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchRow.swift; sourceTree = "<group>"; };
 		C25E2BF929461C9C00EB46B9 /* NavigationView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationView+Extension.swift"; sourceTree = "<group>"; };
 		C25E2BFB29461DEB00EB46B9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C25E2BFD29461F2100EB46B9 /* AppConfigurationInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationInputModel.swift; sourceTree = "<group>"; };
+		C25E2C0A294639CA00EB46B9 /* SettingsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListRow.swift; sourceTree = "<group>"; };
+		C2856B082946660F00B01EF7 /* UserDefaultNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultNames.swift; sourceTree = "<group>"; };
 		C2F008E4293DF9FD0009AF1D /* KBTU WSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KBTU WSP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 		0A573CF0E732C43C7547D190 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C25E2C02294634EF00EB46B9 /* Subviews */,
 				A49CD15F118A73E5C684C60F /* ProfileView.swift */,
 				ADB1741925BEAD8F1D4F829B /* ProfileHostingController.swift */,
 			);
@@ -258,6 +265,7 @@
 		C25E2BF629461BA800EB46B9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C2856B052946652400B01EF7 /* LocalRepo */,
 				C25E2BFF294620EB00EB46B9 /* CoreDTOs */,
 				C25E2BFB29461DEB00EB46B9 /* TabBarController.swift */,
 			);
@@ -294,6 +302,23 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C25E2C02294634EF00EB46B9 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				C25E2C0A294639CA00EB46B9 /* SettingsListRow.swift */,
+				C21FBC5329465C2D00663614 /* SettingsSwitchRow.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		C2856B052946652400B01EF7 /* LocalRepo */ = {
+			isa = PBXGroup;
+			children = (
+				C2856B082946660F00B01EF7 /* UserDefaultNames.swift */,
+			);
+			path = LocalRepo;
 			sourceTree = "<group>";
 		};
 		C2F008DB293DF9FC0009AF1D = {
@@ -501,9 +526,12 @@
 				A8E6307E89D43B8FAC3B2EA2 /* ProfileView.swift in Sources */,
 				C832092BADBA993EA720A9A8 /* ProfileHostingController.swift in Sources */,
 				61647403601518CA8918CEF5 /* ProfileModuleInput.swift in Sources */,
+				C2856B092946660F00B01EF7 /* UserDefaultNames.swift in Sources */,
 				C25E2BFE29461F2100EB46B9 /* AppConfigurationInputModel.swift in Sources */,
 				C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */,
 				C25E2BFC29461DEB00EB46B9 /* TabBarController.swift in Sources */,
+				C21FBC5429465C2D00663614 /* SettingsSwitchRow.swift in Sources */,
+				C25E2C0B294639CA00EB46B9 /* SettingsListRow.swift in Sources */,
 				9A7199847A6CD5538EAD07C0 /* ProfileViewModel.swift in Sources */,
 				34D86D121370360E7F2DB132 /* ProfileAssembly.swift in Sources */,
 				AE981A226917BCB18977E7DA /* AttendanceView.swift in Sources */,
