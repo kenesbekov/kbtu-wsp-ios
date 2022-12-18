@@ -8,10 +8,39 @@
 
 import SwiftUI
 
+fileprivate enum Mocks {
+    static let journals: [Journal] = {
+        var array: [Journal] = []
+        for i in 1..<10 {
+            let journal = Journal(id: 1, name: "Лекция \(1)", date: Date(), status: .present, points: 1)
+            array.append(journal)
+        }
+        return array
+    }()
+}
+
 struct JournalView: View {
     @ObservedObject var viewModel: JournalViewModel
+
+    init(viewModel: JournalViewModel) {
+        viewModel.configure(with: Mocks.journals)
+        self.viewModel = viewModel
+    }
+
     var body: some View {
-        Text("Hello world!")
+        ScrollView {
+            VStack {
+                ForEach(viewModel.journals) { journal in
+                    JournalRowView(viewModel: JournalRowViewModel(journal: journal))
+                }
+            }
+        }
+        .toolbar {
+            Button {
+            } label: {
+                Image(systemName: "bell.badge")
+            }
+        }
     }
 }
 
