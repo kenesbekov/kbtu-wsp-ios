@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00684190294F123600271CC8 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418F294F123600271CC8 /* Attendance.swift */; };
+		00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684191294F12F100271CC8 /* AttendanceRowView.swift */; };
+		00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */; };
 		01F706D4FAD9AC11BF109F3F /* AttendanceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */; };
 		0DB8EB2C7DABB11663E96B99 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */; };
 		10FFF44817589D2BDC37EC2C /* AttendanceModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0068418F294F123600271CC8 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		00684191294F12F100271CC8 /* AttendanceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowView.swift; sourceTree = "<group>"; };
+		00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowViewModel.swift; sourceTree = "<group>"; };
 		077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceAssembly.swift; sourceTree = "<group>"; };
 		2506E375DA7CFCEF898F6FE4 /* ScheduleAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleAssembly.swift; sourceTree = "<group>"; };
 		2B003EE052170217602F01EB /* NewsHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsHostingController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0068418E294F122A00271CC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0068418F294F123600271CC8 /* Attendance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0A573CF0E732C43C7547D190 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +198,7 @@
 			children = (
 				BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */,
 				C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */,
+				00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -219,6 +234,7 @@
 			children = (
 				DD012FE22A295F1F0A54637C /* AttendanceView.swift */,
 				E4E1C325B7DD99EEAD622FF9 /* AttendanceHostingController.swift */,
+				00684191294F12F100271CC8 /* AttendanceRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,13 +313,6 @@
 			path = CoreDTOs;
 			sourceTree = "<group>";
 		};
-		C25E2C012946264E00EB46B9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		C25E2C02294634EF00EB46B9 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,7 +353,7 @@
 			children = (
 				C25E2BF729461BB500EB46B9 /* Application */,
 				C25E2BF629461BA800EB46B9 /* Core */,
-				C25E2C012946264E00EB46B9 /* Models */,
+				0068418E294F122A00271CC8 /* Models */,
 				C2F008FB293DFC6A0009AF1D /* Modules */,
 				C25E2BF829461C8400EB46B9 /* Extensions */,
 				C2F008F0293DFA000009AF1D /* Assets.xcassets */,
@@ -516,7 +525,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00684190294F123600271CC8 /* Attendance.swift in Sources */,
 				C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */,
+				00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */,
 				C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */,
 				F4805F7DDD4CAE4035AF57E0 /* NewsView.swift in Sources */,
 				412C908DF2668A24D47CD1EE /* NewsHostingController.swift in Sources */,
@@ -544,6 +555,7 @@
 				C49C01F025566D988C731631 /* JournalModuleInput.swift in Sources */,
 				0DB8EB2C7DABB11663E96B99 /* JournalViewModel.swift in Sources */,
 				F9384605C52ED426942609BC /* JournalAssembly.swift in Sources */,
+				00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */,
 				203DC670B170C58CC06D9B00 /* ScheduleView.swift in Sources */,
 				79F25870E696FDDD14FF2E59 /* ScheduleHostingController.swift in Sources */,
 				211D87AEFE2AB4438705486D /* ScheduleModuleInput.swift in Sources */,
