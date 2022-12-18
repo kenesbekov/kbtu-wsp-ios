@@ -10,8 +10,14 @@ import Combine
 import Foundation
 
 final class ScheduleViewModel: ObservableObject {
+    @Published private(set) var schedules: [Schedule] = []
+
     required init() {
 
+    }
+
+    func configure(with schedules: [Schedule]) {
+        self.schedules = schedules
     }
 
     // MARK: - ScheduleViewOutput methods

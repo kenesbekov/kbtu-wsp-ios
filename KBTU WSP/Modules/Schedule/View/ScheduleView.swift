@@ -8,10 +8,45 @@
 
 import SwiftUI
 
+fileprivate enum Mocks {
+    static let schedules: [Schedule] = {
+        var array: [Schedule] = []
+        for i in 0...10 {
+            let schedule = Schedule(
+                id: i,
+                lessonKind: .lecture,
+                timeSection: (Date(), Date()),
+                name: "Процесс инжиниринга программнного обеспечения",
+                teacherName: "Алдамуратов Ж.У",
+                classroom: 380
+            )
+            array.append(schedule)
+        }
+        return array
+    }()
+}
+
 struct ScheduleView: View {
     @ObservedObject var viewModel: ScheduleViewModel
+
+    init(viewModel: ScheduleViewModel) {
+        viewModel.configure(with: Mocks.schedules)
+        self.viewModel = viewModel
+    }
+
     var body: some View {
-        Text("Hello world!")
+        ScrollView {
+            ForEach(viewModel.schedules) { schedule in
+                ScheduleRowView(viewModel: ScheduleRowViewModel(schedule: schedule))
+            }
+        }
+        .toolbar {
+             Button {
+             } label: {
+                 Image(systemName: "bell.badge")
+             }
+         }
+         .scrollIndicators(.hidden)
     }
 }
 
