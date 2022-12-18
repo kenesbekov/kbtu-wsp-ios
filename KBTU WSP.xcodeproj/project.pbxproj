@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00684189294DCA8E00271CC8 /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684188294DCA8E00271CC8 /* NewsRowView.swift */; };
+		0068418B294DCAB100271CC8 /* NewsRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */; };
+		0068418D294DCAF000271CC8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418C294DCAF000271CC8 /* News.swift */; };
 		01F706D4FAD9AC11BF109F3F /* AttendanceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */; };
 		0DB8EB2C7DABB11663E96B99 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */; };
 		10FFF44817589D2BDC37EC2C /* AttendanceModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00684188294DCA8E00271CC8 /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
+		0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowViewModel.swift; sourceTree = "<group>"; };
+		0068418C294DCAF000271CC8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceAssembly.swift; sourceTree = "<group>"; };
 		2506E375DA7CFCEF898F6FE4 /* ScheduleAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleAssembly.swift; sourceTree = "<group>"; };
 		2B003EE052170217602F01EB /* NewsHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsHostingController.swift; sourceTree = "<group>"; };
@@ -167,6 +173,7 @@
 			children = (
 				9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */,
 				873AD3D4FFB8076F10030985 /* NewsViewModel.swift */,
+				0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -246,8 +253,9 @@
 		A4B65B8F091437CDEDF2E5B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */,
 				2B003EE052170217602F01EB /* NewsHostingController.swift */,
+				00684188294DCA8E00271CC8 /* NewsRowView.swift */,
+				74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 		C25E2C012946264E00EB46B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0068418C294DCAF000271CC8 /* News.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -526,6 +535,7 @@
 				A8E6307E89D43B8FAC3B2EA2 /* ProfileView.swift in Sources */,
 				C832092BADBA993EA720A9A8 /* ProfileHostingController.swift in Sources */,
 				61647403601518CA8918CEF5 /* ProfileModuleInput.swift in Sources */,
+				00684189294DCA8E00271CC8 /* NewsRowView.swift in Sources */,
 				C2856B092946660F00B01EF7 /* UserDefaultNames.swift in Sources */,
 				C25E2BFE29461F2100EB46B9 /* AppConfigurationInputModel.swift in Sources */,
 				C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */,
@@ -545,6 +555,8 @@
 				0DB8EB2C7DABB11663E96B99 /* JournalViewModel.swift in Sources */,
 				F9384605C52ED426942609BC /* JournalAssembly.swift in Sources */,
 				203DC670B170C58CC06D9B00 /* ScheduleView.swift in Sources */,
+				0068418D294DCAF000271CC8 /* News.swift in Sources */,
+				0068418B294DCAB100271CC8 /* NewsRowViewModel.swift in Sources */,
 				79F25870E696FDDD14FF2E59 /* ScheduleHostingController.swift in Sources */,
 				211D87AEFE2AB4438705486D /* ScheduleModuleInput.swift in Sources */,
 				EB2EF02F8F00D8D57E3CC3DE /* ScheduleViewModel.swift in Sources */,
