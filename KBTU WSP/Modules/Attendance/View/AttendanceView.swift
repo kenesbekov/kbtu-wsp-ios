@@ -8,10 +8,38 @@
 
 import SwiftUI
 
+enum AttendanceMocks {
+    static let attendance: [Attendance] = {
+        var array: [Attendance] = []
+        for i in 0...10 {
+            let attend = Attendance(id: i, name: "Основы информационных систем", teacherName: "Жаксылыков Темирлан Мирамбекович", lecturePart: "Л1 (10:00 - 11:00)", openTime: 0)
+            array.append(attend)
+        }
+        return array
+    }()
+}
+
 struct AttendanceView: View {
     @ObservedObject var viewModel: AttendanceViewModel
+
+    init(viewModel: AttendanceViewModel) {
+        viewModel.configure(with: AttendanceMocks.attendance)
+        self.viewModel = viewModel
+    }
+
     var body: some View {
-        Text("Hello world!")
+        ScrollView {
+            ForEach(viewModel.attendance) { attendance in
+                AttendanceRowView(viewModel: AttendanceRowViewModel(attendance: attendance))
+            }
+        }
+        .toolbar {
+            Button {
+            } label: {
+                Image(systemName: "bell.badge")
+            }
+        }
+        .scrollIndicators(.hidden)
     }
 }
 
