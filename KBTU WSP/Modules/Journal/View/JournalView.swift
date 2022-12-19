@@ -41,6 +41,7 @@ struct JournalView: View {
                 Image(systemName: "bell.badge")
             }
         }
+        .navigationTitle("Журнал")
     }
 }
 

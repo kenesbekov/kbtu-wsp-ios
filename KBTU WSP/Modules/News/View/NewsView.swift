@@ -48,6 +48,7 @@ struct NewsView: View {
             }
         }
         .scrollIndicators(.hidden)
+        .navigationTitle("Новости")
     }
 }
 

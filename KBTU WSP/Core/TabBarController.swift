@@ -24,25 +24,29 @@ final class TabBarController: UITabBarController {
             UINavigationController.generate(
                 rootViewController: newsModule,
                 image: UIImage(systemName: "house.fill") ?? UIImage(),
-                title: "Главная"
+                title: "Главная",
+                prefersLargeTitle: true
             ),
             
             UINavigationController.generate(
                 rootViewController: attendanceModule,
                 image: UIImage(systemName: "clock.arrow.circlepath") ?? UIImage(),
-                title: "Посещаемость"
+                title: "Посещаемость",
+                prefersLargeTitle: true
             ),
             
             UINavigationController.generate(
                 rootViewController: scheduleModule,
                 image: UIImage(systemName: "calendar") ?? UIImage(),
-                title: "Расписание"
+                title: "Расписание",
+                prefersLargeTitle: true
             ),
             
             UINavigationController.generate(
                 rootViewController: journalModule,
                 image: UIImage(systemName: "magazine.fill") ?? UIImage(),
-                title: "Журнал"
+                title: "Журнал",
+                prefersLargeTitle: true
             )
         ]
         
