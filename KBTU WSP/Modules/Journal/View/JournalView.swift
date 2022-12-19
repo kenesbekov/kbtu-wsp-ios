@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-fileprivate enum Mocks {
+fileprivate enum JournalMocks {
     static let journals: [Journal] = {
         var array: [Journal] = []
         for i in 1..<10 {
@@ -23,7 +23,7 @@ struct JournalView: View {
     @ObservedObject var viewModel: JournalViewModel
 
     init(viewModel: JournalViewModel) {
-        viewModel.configure(with: Mocks.journals)
+        viewModel.configure(with: JournalMocks.journals)
         self.viewModel = viewModel
     }
 

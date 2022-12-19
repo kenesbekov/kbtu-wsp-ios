@@ -10,8 +10,14 @@ import Combine
 import Foundation
 
 final class NewsViewModel: ObservableObject {
+    @Published private(set) var news: [News] = []
+
     required init() {
 
+    }
+
+    func configure(with news: [News]) {
+        self.news = news
     }
 
     // MARK: - NewsViewOutput methods
