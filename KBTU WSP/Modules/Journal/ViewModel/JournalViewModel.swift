@@ -10,8 +10,14 @@ import Combine
 import Foundation
 
 final class JournalViewModel: ObservableObject {
+    @Published private(set) var journals: [Journal] = []
+
     required init() {
 
+    }
+
+    func configure(with journals: [Journal]) {
+        self.journals = journals
     }
 
     // MARK: - JournalViewOutput methods
