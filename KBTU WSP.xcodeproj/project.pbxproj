@@ -10,6 +10,9 @@
 		00684190294F123600271CC8 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418F294F123600271CC8 /* Attendance.swift */; };
 		00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684191294F12F100271CC8 /* AttendanceRowView.swift */; };
 		00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */; };
+		00684197294F3F8400271CC8 /* JournalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684196294F3F8400271CC8 /* JournalRowView.swift */; };
+		00684199294F3FCC00271CC8 /* JournalRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */; };
+		0068419B294F400200271CC8 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068419A294F400200271CC8 /* Journal.swift */; };
 		0068419E294F590700271CC8 /* ScheduleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068419D294F590700271CC8 /* ScheduleRowView.swift */; };
 		006841A2294F592700271CC8 /* ScheduleRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006841A1294F592700271CC8 /* ScheduleRowViewModel.swift */; };
 		006841A4294F594100271CC8 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006841A3294F594100271CC8 /* Schedule.swift */; };
@@ -55,6 +58,9 @@
 		0068418F294F123600271CC8 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
 		00684191294F12F100271CC8 /* AttendanceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowView.swift; sourceTree = "<group>"; };
 		00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowViewModel.swift; sourceTree = "<group>"; };
+		00684196294F3F8400271CC8 /* JournalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowView.swift; sourceTree = "<group>"; };
+		00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowViewModel.swift; sourceTree = "<group>"; };
+		0068419A294F400200271CC8 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		0068419D294F590700271CC8 /* ScheduleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRowView.swift; sourceTree = "<group>"; };
 		006841A1294F592700271CC8 /* ScheduleRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRowViewModel.swift; sourceTree = "<group>"; };
 		006841A3294F594100271CC8 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -112,11 +118,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0068418E294F122A00271CC8 /* Models */ = {
+		00684195294F3E7900271CC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0068418F294F123600271CC8 /* Attendance.swift */,
-                006841A3294F594100271CC8 /* Schedule.swift */
+				0068419A294F400200271CC8 /* Journal.swift */,
+        0068418F294F123600271CC8 /* Attendance.swift */,
+        006841A3294F594100271CC8 /* Schedule.swift */
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 			children = (
 				FCD494006FBD8B6156C9BB31 /* JournalModuleInput.swift */,
 				2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */,
+				00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -361,7 +369,7 @@
 			children = (
 				C25E2BF729461BB500EB46B9 /* Application */,
 				C25E2BF629461BA800EB46B9 /* Core */,
-				0068418E294F122A00271CC8 /* Models */,
+				00684195294F3E7900271CC8 /* Models */,
 				C2F008FB293DFC6A0009AF1D /* Modules */,
 				C25E2BF829461C8400EB46B9 /* Extensions */,
 				C2F008F0293DFA000009AF1D /* Assets.xcassets */,
@@ -398,6 +406,7 @@
 			children = (
 				FC1A785E2E5FF12F0D941055 /* JournalView.swift */,
 				645FD24AF65744AFE3C0FF58 /* JournalHostingController.swift */,
+				00684196294F3F8400271CC8 /* JournalRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -549,6 +558,7 @@
 				C832092BADBA993EA720A9A8 /* ProfileHostingController.swift in Sources */,
 				61647403601518CA8918CEF5 /* ProfileModuleInput.swift in Sources */,
 				C2856B092946660F00B01EF7 /* UserDefaultNames.swift in Sources */,
+				0068419B294F400200271CC8 /* Journal.swift in Sources */,
 				C25E2BFE29461F2100EB46B9 /* AppConfigurationInputModel.swift in Sources */,
 				C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */,
 				C25E2BFC29461DEB00EB46B9 /* TabBarController.swift in Sources */,
@@ -556,6 +566,7 @@
 				C25E2C0B294639CA00EB46B9 /* SettingsListRow.swift in Sources */,
 				9A7199847A6CD5538EAD07C0 /* ProfileViewModel.swift in Sources */,
 				34D86D121370360E7F2DB132 /* ProfileAssembly.swift in Sources */,
+				00684199294F3FCC00271CC8 /* JournalRowViewModel.swift in Sources */,
 				AE981A226917BCB18977E7DA /* AttendanceView.swift in Sources */,
 				47F67045F024B1C674E3771B /* AttendanceHostingController.swift in Sources */,
 				10FFF44817589D2BDC37EC2C /* AttendanceModuleInput.swift in Sources */,
@@ -569,6 +580,7 @@
 				00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */,
 				006841A4294F594100271CC8 /* Schedule.swift in Sources */,
 				203DC670B170C58CC06D9B00 /* ScheduleView.swift in Sources */,
+				00684197294F3F8400271CC8 /* JournalRowView.swift in Sources */,
 				79F25870E696FDDD14FF2E59 /* ScheduleHostingController.swift in Sources */,
 				211D87AEFE2AB4438705486D /* ScheduleModuleInput.swift in Sources */,
 				EB2EF02F8F00D8D57E3CC3DE /* ScheduleViewModel.swift in Sources */,
