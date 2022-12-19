@@ -14,4 +14,9 @@ final class NewsHostingController: UIHostingController<NewsView> {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    func showNotifications() {
+        let notifications = NotificationsModuleAssembly().assemble()
+        self.present(notifications, animated: true)
+    }
 }

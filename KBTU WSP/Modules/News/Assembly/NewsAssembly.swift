@@ -18,8 +18,9 @@ final class NewsModuleAssembly {
     /// - Returns: Assembled module's ViewController
     func assemble(_ configuration: NewsConfiguration? = nil) -> UIViewController {
         let viewModel = NewsViewModel()
-        let view = NewsView(viewModel: viewModel)
+        var view = NewsView(viewModel: viewModel)
         let hostingController = NewsHostingController(rootView: view)
+        view.showNotificationsButtonDidTap = hostingController.showNotifications
         hostingController.viewModel = viewModel
         configuration?(viewModel)
         return hostingController
