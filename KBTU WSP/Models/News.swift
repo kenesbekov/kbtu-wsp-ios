@@ -12,5 +12,5 @@ struct News: Identifiable {
     let title: String
     let postDate: Date
     let comments: Int
-    let newsSeen: Bool
+    let haveSeen: Bool
 }

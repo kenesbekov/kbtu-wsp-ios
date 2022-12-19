@@ -29,8 +29,10 @@ struct AttendanceView: View {
 
     var body: some View {
         ScrollView {
-            ForEach(viewModel.attendance) { attendance in
-                AttendanceRowView(viewModel: AttendanceRowViewModel(attendance: attendance))
+            VStack(spacing: 12) {
+                ForEach(viewModel.attendance) { attendance in
+                    AttendanceRowView(viewModel: AttendanceRowViewModel(attendance: attendance))
+                }
             }
         }
         .toolbar {

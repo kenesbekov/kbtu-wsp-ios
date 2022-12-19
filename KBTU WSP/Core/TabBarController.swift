@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 final class TabBarController: UITabBarController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         build()
@@ -44,7 +43,7 @@ final class TabBarController: UITabBarController {
                 rootViewController: journalModule,
                 image: UIImage(systemName: "magazine.fill") ?? UIImage(),
                 title: "Журнал"
-            ),
+            )
         ]
         
         self.viewControllers = modules

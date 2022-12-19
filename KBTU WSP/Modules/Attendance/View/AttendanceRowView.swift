@@ -36,7 +36,7 @@ struct AttendanceRowView: View {
             .padding(.bottom, 8)
         }
         .background(.blue.opacity(0.14))
-        .cornerRadius(16)
+        .cornerRadius(14)
         .padding(.horizontal, 16)
     }
 }

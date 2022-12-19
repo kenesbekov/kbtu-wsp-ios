@@ -29,7 +29,7 @@ struct JournalView: View {
 
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(spacing: 12) {
                 ForEach(viewModel.journals) { journal in
                     JournalRowView(viewModel: JournalRowViewModel(journal: journal))
                 }

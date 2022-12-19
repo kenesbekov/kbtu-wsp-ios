@@ -36,8 +36,10 @@ struct ScheduleView: View {
 
     var body: some View {
         ScrollView {
-            ForEach(viewModel.schedules) { schedule in
-                ScheduleRowView(viewModel: ScheduleRowViewModel(schedule: schedule))
+            VStack(spacing: 12) {
+                ForEach(viewModel.schedules) { schedule in
+                    ScheduleRowView(viewModel: ScheduleRowViewModel(schedule: schedule))
+                }
             }
         }
         .toolbar {
