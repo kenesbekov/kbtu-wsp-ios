@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-fileprivate enum Mocks {
+fileprivate enum ScheduleMocks {
     static let schedules: [Schedule] = {
         var array: [Schedule] = []
         for i in 0...10 {
@@ -30,7 +30,7 @@ struct ScheduleView: View {
     @ObservedObject var viewModel: ScheduleViewModel
 
     init(viewModel: ScheduleViewModel) {
-        viewModel.configure(with: Mocks.schedules)
+        viewModel.configure(with: ScheduleMocks.schedules)
         self.viewModel = viewModel
     }
 
