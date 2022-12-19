@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00684190294F123600271CC8 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418F294F123600271CC8 /* Attendance.swift */; };
+		00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684191294F12F100271CC8 /* AttendanceRowView.swift */; };
+		00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */; };
 		00684197294F3F8400271CC8 /* JournalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684196294F3F8400271CC8 /* JournalRowView.swift */; };
 		00684199294F3FCC00271CC8 /* JournalRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */; };
 		0068419B294F400200271CC8 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068419A294F400200271CC8 /* Journal.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0068418F294F123600271CC8 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		00684191294F12F100271CC8 /* AttendanceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowView.swift; sourceTree = "<group>"; };
+		00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRowViewModel.swift; sourceTree = "<group>"; };
 		00684196294F3F8400271CC8 /* JournalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowView.swift; sourceTree = "<group>"; };
 		00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowViewModel.swift; sourceTree = "<group>"; };
 		0068419A294F400200271CC8 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
@@ -116,7 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				0068419A294F400200271CC8 /* Journal.swift */,
-                006841A3294F594100271CC8 /* Schedule.swift */
+        0068418F294F123600271CC8 /* Attendance.swift */,
+        006841A3294F594100271CC8 /* Schedule.swift */
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 			children = (
 				BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */,
 				C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */,
+				00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 			children = (
 				DD012FE22A295F1F0A54637C /* AttendanceView.swift */,
 				E4E1C325B7DD99EEAD622FF9 /* AttendanceHostingController.swift */,
+				00684191294F12F100271CC8 /* AttendanceRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -534,7 +543,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00684190294F123600271CC8 /* Attendance.swift in Sources */,
 				C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */,
+				00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */,
 				C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */,
 				0068419E294F590700271CC8 /* ScheduleRowView.swift in Sources */,
 				F4805F7DDD4CAE4035AF57E0 /* NewsView.swift in Sources */,
@@ -566,6 +577,7 @@
 				C49C01F025566D988C731631 /* JournalModuleInput.swift in Sources */,
 				0DB8EB2C7DABB11663E96B99 /* JournalViewModel.swift in Sources */,
 				F9384605C52ED426942609BC /* JournalAssembly.swift in Sources */,
+				00684192294F12F100271CC8 /* AttendanceRowView.swift in Sources */,
 				006841A4294F594100271CC8 /* Schedule.swift in Sources */,
 				203DC670B170C58CC06D9B00 /* ScheduleView.swift in Sources */,
 				00684197294F3F8400271CC8 /* JournalRowView.swift in Sources */,

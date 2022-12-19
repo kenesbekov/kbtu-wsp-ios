@@ -10,8 +10,14 @@ import Combine
 import Foundation
 
 final class AttendanceViewModel: ObservableObject {
+    @Published private(set) var attendance: [Attendance] = []
+
     required init() {
 
+    }
+
+    func configure(with attendance: [Attendance]) {
+        self.attendance = attendance
     }
 
     // MARK: - AttendanceViewOutput methods
