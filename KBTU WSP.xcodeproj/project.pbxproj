@@ -127,10 +127,10 @@
 		00684195294F3E7900271CC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-        0068418C294DCAF000271CC8 /* News.swift */,
+				0068418F294F123600271CC8 /* Attendance.swift */,
 				0068419A294F400200271CC8 /* Journal.swift */,
-        0068418F294F123600271CC8 /* Attendance.swift */,
-        006841A3294F594100271CC8 /* Schedule.swift */
+				0068418C294DCAF000271CC8 /* News.swift */,
+				006841A3294F594100271CC8 /* Schedule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				FCD494006FBD8B6156C9BB31 /* JournalModuleInput.swift */,
-				2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */,
 				00684198294F3FCC00271CC8 /* JournalRowViewModel.swift */,
+				2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -202,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */,
-				873AD3D4FFB8076F10030985 /* NewsViewModel.swift */,
 				0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */,
+				873AD3D4FFB8076F10030985 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */,
-				C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */,
 				00684193294F131F00271CC8 /* AttendanceRowViewModel.swift */,
+				C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -238,9 +238,9 @@
 		6270A5F89FA743D53C8800D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */,
 				494BEA04A647C6F55B18AA6B /* ScheduleHostingController.swift */,
 				0068419D294F590700271CC8 /* ScheduleRowView.swift */,
+				BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,9 +256,9 @@
 		8F4141F57F2DCDFBED790BCD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DD012FE22A295F1F0A54637C /* AttendanceView.swift */,
 				E4E1C325B7DD99EEAD622FF9 /* AttendanceHostingController.swift */,
 				00684191294F12F100271CC8 /* AttendanceRowView.swift */,
+				DD012FE22A295F1F0A54637C /* AttendanceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -413,9 +413,9 @@
 		F150A03FFEBE2D9867EE760E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FC1A785E2E5FF12F0D941055 /* JournalView.swift */,
 				645FD24AF65744AFE3C0FF58 /* JournalHostingController.swift */,
 				00684196294F3F8400271CC8 /* JournalRowView.swift */,
+				FC1A785E2E5FF12F0D941055 /* JournalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

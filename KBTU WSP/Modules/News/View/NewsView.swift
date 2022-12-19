@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-enum Mocks {
+enum NewsMocks {
     static let news: [News] = {
         var array: [News] = []
         for i in 0..<10 {
             let new = News(
                 id: i,
-                title: "",
+                title: "Об отмене занятий профессора Исахова Алибека Абдиашимовича",
                 postDate: Date(),
                 comments: 12,
-                newsSeen: false
+                haveSeen: false
             )
             array.append(new)
         }
@@ -29,7 +29,7 @@ struct NewsView: View {
     @ObservedObject var viewModel: NewsViewModel
 
     init(viewModel: NewsViewModel) {
-        viewModel.configure(with: Mocks.news)
+        viewModel.configure(with: NewsMocks.news)
         self.viewModel = viewModel
     }
 
@@ -47,7 +47,6 @@ struct NewsView: View {
                 Image(systemName: "bell.badge")
             }
         }
-        .padding(.horizontal, 16)
         .scrollIndicators(.hidden)
     }
 }

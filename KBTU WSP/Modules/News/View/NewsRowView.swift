@@ -18,6 +18,8 @@ struct NewsRowView: View {
                     .foregroundColor(viewModel.titleColor)
                 Image(systemName: "chevron.right")
             }
+            .padding(.horizontal, 16)
+            .padding(.top, 8)
             HStack(spacing: 8) {
                 HStack(spacing: 4) {
                     Image(systemName: "clock.fill")
@@ -28,12 +30,13 @@ struct NewsRowView: View {
                     Text(viewModel.comments)
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.bottom, 8)
             .font(.caption)
             .foregroundColor(.secondary)
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 8)
         .background(viewModel.backgroundColor)
         .cornerRadius(14)
+        .padding(.horizontal, 16)
     }
 }
