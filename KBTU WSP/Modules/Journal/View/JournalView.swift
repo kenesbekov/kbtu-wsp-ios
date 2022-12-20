@@ -20,6 +20,7 @@ fileprivate enum JournalMocks {
 }
 
 struct JournalView: View {
+    var showProfileButtonDidTap: (() -> Void)?
     var showNotificationsButtonDidTap: (() -> Void)?
     
     @ObservedObject var viewModel: JournalViewModel
@@ -38,10 +39,23 @@ struct JournalView: View {
             }
         }
         .toolbar {
-            Button {
-                showNotificationsButtonDidTap?()
-            } label: {
-                Image(systemName: "bell.badge")
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+                    showProfileButtonDidTap?()
+                } label: {
+                    Image("dilnaz")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 32, height: 32)
+                        .clipShape(Circle())
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    showNotificationsButtonDidTap?()
+                } label: {
+                    Image(systemName: "bell.badge")
+                }
             }
         }
         .navigationTitle("Журнал")
