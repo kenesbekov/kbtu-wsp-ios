@@ -26,6 +26,7 @@ fileprivate enum NewsMocks {
 }
 
 struct NewsView: View {
+    var showProfileButtonDidTap: (() -> Void)?
     var showNotificationsButtonDidTap: (() -> Void)?
     
     @ObservedObject var viewModel: NewsViewModel
@@ -44,10 +45,23 @@ struct NewsView: View {
             }
         }
         .toolbar {
-            Button {
-                showNotificationsButtonDidTap?()
-            } label: {
-                Image(systemName: "bell.badge")
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+                    showProfileButtonDidTap?()
+                } label: {
+                    Image("dilnaz")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 32, height: 32)
+                        .clipShape(Circle())
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    showNotificationsButtonDidTap?()
+                } label: {
+                    Image(systemName: "bell.badge")
+                }
             }
         }
         .scrollIndicators(.hidden)

@@ -14,7 +14,14 @@ final class JournalHostingController: UIHostingController<JournalView> {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        rootView.showProfileButtonDidTap = showProfile
         rootView.showNotificationsButtonDidTap = showNotifications
+    }
+
+    private func showProfile() {
+        let profile = ProfileModuleAssembly().assemble()
+        profile.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(profile, animated: true)
     }
 
     private func showNotifications() {

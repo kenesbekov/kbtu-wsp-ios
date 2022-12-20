@@ -53,7 +53,6 @@
 		C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */; };
 		C2F008EA293DF9FD0009AF1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */; };
 		C2F008F1293DFA000009AF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F008F0293DFA000009AF1D /* Assets.xcassets */; };
-		C2F008F4293DFA000009AF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */; };
 		C49C01F025566D988C731631 /* JournalModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD494006FBD8B6156C9BB31 /* JournalModuleInput.swift */; };
 		C832092BADBA993EA720A9A8 /* ProfileHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1741925BEAD8F1D4F829B /* ProfileHostingController.swift */; };
 		CB5D61301E7B30B6E3881A60 /* Pods_KBTU_WSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519C3F7DEC341F43783AD8FE /* Pods_KBTU_WSP.framework */; };
@@ -113,7 +112,6 @@
 		C2F008E7293DF9FD0009AF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F008E9293DF9FD0009AF1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C2F008F0293DFA000009AF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2F008F3293DFA000009AF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F008F5293DFA000009AF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FA3536A20F6E8D01D35687 /* NotificationsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsModuleInput.swift; sourceTree = "<group>"; };
 		C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceViewModel.swift; sourceTree = "<group>"; };
@@ -417,7 +415,6 @@
 				C2F008FB293DFC6A0009AF1D /* Modules */,
 				C25E2BF829461C8400EB46B9 /* Extensions */,
 				C2F008F0293DFA000009AF1D /* Assets.xcassets */,
-				C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */,
 				C2F008F5293DFA000009AF1D /* Info.plist */,
 			);
 			path = "KBTU WSP";
@@ -554,7 +551,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F008F4293DFA000009AF1D /* LaunchScreen.storyboard in Resources */,
 				C2F008F1293DFA000009AF1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,17 +661,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C2F008F2293DFA000009AF1D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2F008F3293DFA000009AF1D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2F008F6293DFA000009AF1D /* Debug */ = {
