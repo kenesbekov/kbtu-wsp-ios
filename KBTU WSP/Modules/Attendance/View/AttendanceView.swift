@@ -45,6 +45,7 @@ struct AttendanceView: View {
             }
         }
         .scrollIndicators(.hidden)
+        .navigationTitle("Отметка посещения")
     }
 }
 
