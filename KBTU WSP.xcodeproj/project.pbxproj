@@ -158,9 +158,9 @@
 		152F937994DE0004CB227FFD /* News */ = {
 			isa = PBXGroup;
 			children = (
+				89E551831A88CC5A689D2402 /* Assembly */,
 				A4B65B8F091437CDEDF2E5B2 /* View */,
 				4E2C7CBF13692427396DBC9F /* ViewModel */,
-				89E551831A88CC5A689D2402 /* Assembly */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -266,9 +266,9 @@
 		91E2233D8D409675F66FCC46 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				18CF73764F2178D29031B248 /* Assembly */,
 				6270A5F89FA743D53C8800D6 /* View */,
 				F5C5EB64C7D70016714D21DB /* ViewModel */,
-				18CF73764F2178D29031B248 /* Assembly */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -276,9 +276,9 @@
 		A2C4AA017F2A46ADF657AA98 /* Attendance */ = {
 			isa = PBXGroup;
 			children = (
+				FF2ECFBA194C63B2DF92110E /* Assembly */,
 				8F4141F57F2DCDFBED790BCD /* View */,
 				55D7A6247A1ECCB687B397EC /* ViewModel */,
-				FF2ECFBA194C63B2DF92110E /* Assembly */,
 			);
 			path = Attendance;
 			sourceTree = "<group>";
@@ -296,9 +296,9 @@
 		AACE560328388E889520D1C8 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
+				227EE7A829C5ACC40CB53BA0 /* Assembly */,
 				F150A03FFEBE2D9867EE760E /* View */,
 				0FBFF1E0327011BFDABC111F /* ViewModel */,
-				227EE7A829C5ACC40CB53BA0 /* Assembly */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -391,10 +391,10 @@
 		C2F008FB293DFC6A0009AF1D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				152F937994DE0004CB227FFD /* News */,
-				ECD025F76026855E936668C9 /* Profile */,
 				A2C4AA017F2A46ADF657AA98 /* Attendance */,
 				AACE560328388E889520D1C8 /* Journal */,
+				152F937994DE0004CB227FFD /* News */,
+				ECD025F76026855E936668C9 /* Profile */,
 				91E2233D8D409675F66FCC46 /* Schedule */,
 			);
 			path = Modules;
@@ -403,9 +403,9 @@
 		ECD025F76026855E936668C9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				547A0DB9D582DEDF15595D02 /* Assembly */,
 				0A573CF0E732C43C7547D190 /* View */,
 				58F98B3885D99D41E86BF70F /* ViewModel */,
-				547A0DB9D582DEDF15595D02 /* Assembly */,
 			);
 			path = Profile;
 			sourceTree = "<group>";

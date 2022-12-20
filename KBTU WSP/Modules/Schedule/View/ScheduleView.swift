@@ -49,6 +49,8 @@ struct ScheduleView: View {
              }
          }
          .scrollIndicators(.hidden)
+        // TODO: - Изменить navigationTitle на выбранный день
+         .navigationTitle("Расписание")
     }
 }
 
