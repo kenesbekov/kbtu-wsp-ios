@@ -20,6 +20,8 @@ enum AttendanceMocks {
 }
 
 struct AttendanceView: View {
+    var showNotificationsButtonDidTap: (() -> Void)?
+    
     @ObservedObject var viewModel: AttendanceViewModel
 
     init(viewModel: AttendanceViewModel) {
@@ -37,6 +39,7 @@ struct AttendanceView: View {
         }
         .toolbar {
             Button {
+                showNotificationsButtonDidTap?()
             } label: {
                 Image(systemName: "bell.badge")
             }

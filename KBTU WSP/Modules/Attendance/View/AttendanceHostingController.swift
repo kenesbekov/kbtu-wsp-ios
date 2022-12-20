@@ -13,5 +13,13 @@ final class AttendanceHostingController: UIHostingController<AttendanceView> {
     var viewModel: AttendanceViewModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        rootView.showNotificationsButtonDidTap = showNotifications
+    }
+
+    private func showNotifications() {
+        let notifications = NotificationsModuleAssembly().assemble()
+        notifications.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(notifications, animated: true)
     }
 }

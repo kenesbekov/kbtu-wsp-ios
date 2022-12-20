@@ -13,11 +13,12 @@ extension UINavigationController {
         rootViewController: UIViewController,
         image: UIImage,
         title: String,
-        prefersLargeTitle: Bool = false) -> UIViewController {
-            let navigationVC = UINavigationController(rootViewController: rootViewController)
-            navigationVC.tabBarItem.image = image
-            navigationVC.tabBarItem.title = title
-            navigationVC.navigationBar.prefersLargeTitles = prefersLargeTitle
-            return navigationVC
-        }
+        prefersLargeTitle: Bool = false
+    ) -> UIViewController {
+        let navigationVC = UINavigationController(rootViewController: rootViewController)
+        navigationVC.tabBarItem.image = image
+        navigationVC.tabBarItem.title = title
+        navigationVC.navigationBar.prefersLargeTitles = prefersLargeTitle
+        return navigationVC
+    }
 }

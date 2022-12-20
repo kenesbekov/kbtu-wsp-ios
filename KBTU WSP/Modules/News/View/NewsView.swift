@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-enum NewsMocks {
+fileprivate enum NewsMocks {
     static let news: [News] = {
         var array: [News] = []
         for i in 0..<10 {
@@ -26,6 +26,8 @@ enum NewsMocks {
 }
 
 struct NewsView: View {
+    var showNotificationsButtonDidTap: (() -> Void)?
+    
     @ObservedObject var viewModel: NewsViewModel
 
     init(viewModel: NewsViewModel) {
@@ -43,19 +45,12 @@ struct NewsView: View {
         }
         .toolbar {
             Button {
+                showNotificationsButtonDidTap?()
             } label: {
                 Image(systemName: "bell.badge")
             }
         }
         .scrollIndicators(.hidden)
         .navigationTitle("Новости")
-    }
-}
-
-struct NewsView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            NewsView(viewModel: NewsViewModel())
-        }
     }
 }

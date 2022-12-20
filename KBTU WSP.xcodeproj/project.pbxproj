@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0038679C29503BA6009979FC /* NotificationsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038679B29503BA6009979FC /* NotificationsRowView.swift */; };
+		0038679F29503BB8009979FC /* NotificationsRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038679E29503BB8009979FC /* NotificationsRowViewModel.swift */; };
+		003867A129503BC4009979FC /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003867A029503BC4009979FC /* Notification.swift */; };
 		00684189294DCA8E00271CC8 /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00684188294DCA8E00271CC8 /* NewsRowView.swift */; };
 		0068418B294DCAB100271CC8 /* NewsRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */; };
 		0068418D294DCAF000271CC8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068418C294DCAF000271CC8 /* News.swift */; };
@@ -30,13 +33,17 @@
 		34D86D121370360E7F2DB132 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B09F701396DA22057B424 /* ProfileAssembly.swift */; };
 		412C908DF2668A24D47CD1EE /* NewsHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B003EE052170217602F01EB /* NewsHostingController.swift */; };
 		47F67045F024B1C674E3771B /* AttendanceHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1C325B7DD99EEAD622FF9 /* AttendanceHostingController.swift */; };
+		5C678CE87012D95CBAFCE270 /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20423FBA960F5A7AB0DBB844 /* NotificationsViewModel.swift */; };
 		61647403601518CA8918CEF5 /* ProfileModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B6718B1A5AAA377C6A257 /* ProfileModuleInput.swift */; };
 		79F25870E696FDDD14FF2E59 /* ScheduleHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BEA04A647C6F55B18AA6B /* ScheduleHostingController.swift */; };
 		88C49F1C68E46AA53CAB5063 /* ScheduleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2506E375DA7CFCEF898F6FE4 /* ScheduleAssembly.swift */; };
 		9A7199847A6CD5538EAD07C0 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EE05FE64383160D4B5281 /* ProfileViewModel.swift */; };
+		A00EE2E36EBD676E85C866EE /* NotificationsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DCA30BDE3B2BF805BC8F12 /* NotificationsAssembly.swift */; };
+		A424D375578329D73CCF19E4 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C805EC31C4BE208211B4D349 /* NotificationsView.swift */; };
 		A8E6307E89D43B8FAC3B2EA2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CD15F118A73E5C684C60F /* ProfileView.swift */; };
 		AE981A226917BCB18977E7DA /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD012FE22A295F1F0A54637C /* AttendanceView.swift */; };
 		B294808B8769AA6C67E3F990 /* AttendanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */; };
+		B78809B2B14220296DF6013E /* NotificationsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA3536A20F6E8D01D35687 /* NotificationsModuleInput.swift */; };
 		C21FBC5429465C2D00663614 /* SettingsSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FBC5329465C2D00663614 /* SettingsSwitchRow.swift */; };
 		C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2BF929461C9C00EB46B9 /* NavigationView+Extension.swift */; };
 		C25E2BFC29461DEB00EB46B9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E2BFB29461DEB00EB46B9 /* TabBarController.swift */; };
@@ -51,6 +58,7 @@
 		C832092BADBA993EA720A9A8 /* ProfileHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1741925BEAD8F1D4F829B /* ProfileHostingController.swift */; };
 		CB5D61301E7B30B6E3881A60 /* Pods_KBTU_WSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519C3F7DEC341F43783AD8FE /* Pods_KBTU_WSP.framework */; };
 		EB2EF02F8F00D8D57E3CC3DE /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D317FB62D3B669BA36CB61 /* ScheduleViewModel.swift */; };
+		F0063736B2DB62CF1B7ACB4E /* NotificationsHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D16635AA98C05C5347C2C /* NotificationsHostingController.swift */; };
 		F096E2612D9D4132512255D0 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AD3D4FFB8076F10030985 /* NewsViewModel.swift */; };
 		F4805F7DDD4CAE4035AF57E0 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */; };
 		F5DAC5B50ED77C901A646971 /* NewsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */; };
@@ -58,6 +66,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0038679B29503BA6009979FC /* NotificationsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRowView.swift; sourceTree = "<group>"; };
+		0038679E29503BB8009979FC /* NotificationsRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRowViewModel.swift; sourceTree = "<group>"; };
+		003867A029503BC4009979FC /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		00684188294DCA8E00271CC8 /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
 		0068418A294DCAB100271CC8 /* NewsRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowViewModel.swift; sourceTree = "<group>"; };
 		0068418C294DCAF000271CC8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
@@ -71,6 +82,7 @@
 		006841A1294F592700271CC8 /* ScheduleRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRowViewModel.swift; sourceTree = "<group>"; };
 		006841A3294F594100271CC8 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		077F8CF23AC4AE9B3AE962BA /* AttendanceAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceAssembly.swift; sourceTree = "<group>"; };
+		20423FBA960F5A7AB0DBB844 /* NotificationsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
 		2506E375DA7CFCEF898F6FE4 /* ScheduleAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleAssembly.swift; sourceTree = "<group>"; };
 		2B003EE052170217602F01EB /* NewsHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsHostingController.swift; sourceTree = "<group>"; };
 		2D12129AE7B37006EDAA8772 /* JournalViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
@@ -80,6 +92,7 @@
 		645FD24AF65744AFE3C0FF58 /* JournalHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JournalHostingController.swift; sourceTree = "<group>"; };
 		741B09F701396DA22057B424 /* ProfileAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
 		74C1F47C3FEA37B6F0F6D1D1 /* NewsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7E1D16635AA98C05C5347C2C /* NotificationsHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsHostingController.swift; sourceTree = "<group>"; };
 		873AD3D4FFB8076F10030985 /* NewsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		8967556E321EC766E75F57B4 /* ScheduleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleModuleInput.swift; sourceTree = "<group>"; };
 		9816A60CCABE6A6BEB639543 /* NewsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsModuleInput.swift; sourceTree = "<group>"; };
@@ -87,6 +100,7 @@
 		A49CD15F118A73E5C684C60F /* ProfileView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		ADB1741925BEAD8F1D4F829B /* ProfileHostingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProfileHostingController.swift; sourceTree = "<group>"; };
 		B2CA412AC221F364A3C2EB58 /* Pods-KBTU WSP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTU WSP.debug.xcconfig"; path = "Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DCA30BDE3B2BF805BC8F12 /* NotificationsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsAssembly.swift; sourceTree = "<group>"; };
 		BA02D55DAF06251884391D79 /* AttendanceModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceModuleInput.swift; sourceTree = "<group>"; };
 		BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		C21FBC5329465C2D00663614 /* SettingsSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchRow.swift; sourceTree = "<group>"; };
@@ -101,7 +115,9 @@
 		C2F008F0293DFA000009AF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F008F3293DFA000009AF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F008F5293DFA000009AF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FA3536A20F6E8D01D35687 /* NotificationsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsModuleInput.swift; sourceTree = "<group>"; };
 		C79C027FACB409AC0B06482F /* AttendanceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceViewModel.swift; sourceTree = "<group>"; };
+		C805EC31C4BE208211B4D349 /* NotificationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		D0D317FB62D3B669BA36CB61 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		D924D1490B2F9F36C26B5ED5 /* Pods-KBTU WSP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBTU WSP.release.xcconfig"; path = "Target Support Files/Pods-KBTU WSP/Pods-KBTU WSP.release.xcconfig"; sourceTree = "<group>"; };
 		DD012FE22A295F1F0A54637C /* AttendanceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
@@ -130,6 +146,7 @@
 				0068418F294F123600271CC8 /* Attendance.swift */,
 				0068419A294F400200271CC8 /* Journal.swift */,
 				0068418C294DCAF000271CC8 /* News.swift */,
+				003867A029503BC4009979FC /* Notification.swift */,
 				006841A3294F594100271CC8 /* Schedule.swift */,
 			);
 			path = Models;
@@ -198,6 +215,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D198184088034F57AF79A74 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				B9DCA30BDE3B2BF805BC8F12 /* NotificationsAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		4E2C7CBF13692427396DBC9F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +268,16 @@
 				BF3A056BCDA67BD181B4F110 /* ScheduleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		77E0C31A4277C57AD8653990 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4FA3536A20F6E8D01D35687 /* NotificationsModuleInput.swift */,
+				0038679E29503BB8009979FC /* NotificationsRowViewModel.swift */,
+				20423FBA960F5A7AB0DBB844 /* NotificationsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		89E551831A88CC5A689D2402 /* Assembly */ = {
@@ -394,10 +429,21 @@
 				A2C4AA017F2A46ADF657AA98 /* Attendance */,
 				AACE560328388E889520D1C8 /* Journal */,
 				152F937994DE0004CB227FFD /* News */,
+				F6C689E59E629D3ACBF361AA /* Notifications */,
 				ECD025F76026855E936668C9 /* Profile */,
 				91E2233D8D409675F66FCC46 /* Schedule */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		D7A6B784BE5E3E71E2D2C4D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D16635AA98C05C5347C2C /* NotificationsHostingController.swift */,
+				0038679B29503BA6009979FC /* NotificationsRowView.swift */,
+				C805EC31C4BE208211B4D349 /* NotificationsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ECD025F76026855E936668C9 /* Profile */ = {
@@ -428,6 +474,16 @@
 				006841A1294F592700271CC8 /* ScheduleRowViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6C689E59E629D3ACBF361AA /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				D7A6B784BE5E3E71E2D2C4D5 /* View */,
+				77E0C31A4277C57AD8653990 /* ViewModel */,
+				4D198184088034F57AF79A74 /* Assembly */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 		FF2ECFBA194C63B2DF92110E /* Assembly */ = {
@@ -552,6 +608,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0038679F29503BB8009979FC /* NotificationsRowViewModel.swift in Sources */,
 				00684190294F123600271CC8 /* Attendance.swift in Sources */,
 				C2F008E8293DF9FD0009AF1D /* AppDelegate.swift in Sources */,
 				00684194294F131F00271CC8 /* AttendanceRowViewModel.swift in Sources */,
@@ -571,6 +628,7 @@
 				0068419B294F400200271CC8 /* Journal.swift in Sources */,
 				C25E2BFE29461F2100EB46B9 /* AppConfigurationInputModel.swift in Sources */,
 				C25E2BFA29461C9C00EB46B9 /* NavigationView+Extension.swift in Sources */,
+				0038679C29503BA6009979FC /* NotificationsRowView.swift in Sources */,
 				C25E2BFC29461DEB00EB46B9 /* TabBarController.swift in Sources */,
 				C21FBC5429465C2D00663614 /* SettingsSwitchRow.swift in Sources */,
 				C25E2C0B294639CA00EB46B9 /* SettingsListRow.swift in Sources */,
@@ -593,10 +651,16 @@
 				0068418D294DCAF000271CC8 /* News.swift in Sources */,
 				0068418B294DCAB100271CC8 /* NewsRowViewModel.swift in Sources */,
 				00684197294F3F8400271CC8 /* JournalRowView.swift in Sources */,
+				003867A129503BC4009979FC /* Notification.swift in Sources */,
 				79F25870E696FDDD14FF2E59 /* ScheduleHostingController.swift in Sources */,
 				211D87AEFE2AB4438705486D /* ScheduleModuleInput.swift in Sources */,
 				EB2EF02F8F00D8D57E3CC3DE /* ScheduleViewModel.swift in Sources */,
 				88C49F1C68E46AA53CAB5063 /* ScheduleAssembly.swift in Sources */,
+				A424D375578329D73CCF19E4 /* NotificationsView.swift in Sources */,
+				F0063736B2DB62CF1B7ACB4E /* NotificationsHostingController.swift in Sources */,
+				B78809B2B14220296DF6013E /* NotificationsModuleInput.swift in Sources */,
+				5C678CE87012D95CBAFCE270 /* NotificationsViewModel.swift in Sources */,
+				A00EE2E36EBD676E85C866EE /* NotificationsAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,9 +803,10 @@
 				DEVELOPMENT_TEAM = GC89CV545Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KBTU WSP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KBTU WSP";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -752,9 +817,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kz.kbtu.KBTU-WSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -769,9 +837,10 @@
 				DEVELOPMENT_TEAM = GC89CV545Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KBTU WSP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KBTU WSP";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -782,9 +851,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kz.kbtu.KBTU-WSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
