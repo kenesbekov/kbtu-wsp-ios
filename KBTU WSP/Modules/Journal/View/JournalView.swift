@@ -58,6 +58,7 @@ struct JournalView: View {
                 }
             }
         }
+        .scrollIndicators(.hidden)
         .navigationTitle("Журнал")
     }
 }
