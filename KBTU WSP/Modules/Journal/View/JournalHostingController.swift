@@ -19,6 +19,7 @@ final class JournalHostingController: UIHostingController<JournalView> {
 
     private func showNotifications() {
         let notifications = NotificationsModuleAssembly().assemble()
+        notifications.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(notifications, animated: true)
     }
 }

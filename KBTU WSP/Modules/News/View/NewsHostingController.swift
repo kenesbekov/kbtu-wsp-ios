@@ -19,6 +19,7 @@ final class NewsHostingController: UIHostingController<NewsView> {
 
     private func showNotifications() {
         let notifications = NotificationsModuleAssembly().assemble()
+        notifications.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(notifications, animated: true)
     }
 }
