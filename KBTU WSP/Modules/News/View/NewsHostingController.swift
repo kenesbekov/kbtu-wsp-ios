@@ -13,10 +13,12 @@ final class NewsHostingController: UIHostingController<NewsView> {
     var viewModel: NewsViewModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        rootView.showNotificationsButtonDidTap = showNotifications
     }
 
-    func showNotifications() {
+    private func showNotifications() {
         let notifications = NotificationsModuleAssembly().assemble()
-        self.present(notifications, animated: true)
+        navigationController?.pushViewController(notifications, animated: true)
     }
 }

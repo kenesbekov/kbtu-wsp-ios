@@ -20,6 +20,8 @@ fileprivate enum JournalMocks {
 }
 
 struct JournalView: View {
+    var showNotificationsButtonDidTap: (() -> Void)?
+    
     @ObservedObject var viewModel: JournalViewModel
 
     init(viewModel: JournalViewModel) {
@@ -37,6 +39,7 @@ struct JournalView: View {
         }
         .toolbar {
             Button {
+                showNotificationsButtonDidTap?()
             } label: {
                 Image(systemName: "bell.badge")
             }

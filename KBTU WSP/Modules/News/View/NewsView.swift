@@ -26,8 +26,9 @@ fileprivate enum NewsMocks {
 }
 
 struct NewsView: View {
-    @ObservedObject var viewModel: NewsViewModel
     var showNotificationsButtonDidTap: (() -> Void)?
+    
+    @ObservedObject var viewModel: NewsViewModel
 
     init(viewModel: NewsViewModel) {
         viewModel.configure(with: NewsMocks.news)
@@ -50,13 +51,5 @@ struct NewsView: View {
             }
         }
         .scrollIndicators(.hidden)
-    }
-}
-
-struct NewsView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            NewsView(viewModel: NewsViewModel())
-        }
     }
 }

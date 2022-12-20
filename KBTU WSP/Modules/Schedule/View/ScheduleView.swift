@@ -27,6 +27,8 @@ fileprivate enum ScheduleMocks {
 }
 
 struct ScheduleView: View {
+    var showNotificationsButtonDidTap: (() -> Void)?
+    
     @ObservedObject var viewModel: ScheduleViewModel
 
     init(viewModel: ScheduleViewModel) {
@@ -44,6 +46,7 @@ struct ScheduleView: View {
         }
         .toolbar {
              Button {
+                 showNotificationsButtonDidTap?()
              } label: {
                  Image(systemName: "bell.badge")
              }

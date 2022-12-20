@@ -13,5 +13,12 @@ final class JournalHostingController: UIHostingController<JournalView> {
     var viewModel: JournalViewModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        rootView.showNotificationsButtonDidTap = showNotifications
+    }
+
+    private func showNotifications() {
+        let notifications = NotificationsModuleAssembly().assemble()
+        navigationController?.pushViewController(notifications, animated: true)
     }
 }

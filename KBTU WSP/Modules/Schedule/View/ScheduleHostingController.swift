@@ -13,5 +13,12 @@ final class ScheduleHostingController: UIHostingController<ScheduleView> {
     var viewModel: ScheduleViewModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        rootView.showNotificationsButtonDidTap = showNotifications
+    }
+
+    private func showNotifications() {
+        let notifications = NotificationsModuleAssembly().assemble()
+        navigationController?.pushViewController(notifications, animated: true)
     }
 }
